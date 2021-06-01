@@ -1,0 +1,1444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+	<!-- Regla primera -->
+	<category>
+	<pattern>hablame un poco de ti</pattern>
+	<template>Me llamo Juan Carlos, soy extrovertido y alegre. Me gusta trabajar y suelo ser Puntual</template>
+	</category>
+
+	<category>
+	<pattern>^ hablame * ti</pattern>
+	<template><srai>hablame un poco de ti</srai></template>
+	</category>
+
+	<category>
+	<pattern>* ti ^</pattern>
+	<template><srai>hablame un poco de ti</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ ti ^</pattern>
+	<template><srai>hablame un poco de ti</srai></template>
+	</category>
+
+
+	<category>
+	<pattern>^ ti *</pattern>
+	<template><srai>hablame un poco de ti</srai></template>
+	</category>
+
+
+
+	<!-- Regla segunda -->
+	<category>
+	<pattern>cual es tu mayor defecto</pattern>
+	<template>No me gusta este trabajo, pero necesito llegar a fin de mes</template>
+	</category>
+
+	
+	<category>
+	<pattern>^ defecto *</pattern>
+	<template><srai>cual es tu mayor defecto</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ tu ^ defecto ^</pattern>
+	<template><srai>cual es tu mayor defecto</srai></template>
+	</category>
+
+	<category>
+	<pattern>* cual * defecto ^</pattern>
+	<template><srai>cual es tu mayor defecto</srai></template>
+	</category>
+
+	
+	<!-- Regla tercera -->
+	<category>
+	<pattern>que aspectos no te gustan de un jefe</pattern>
+	<template>Que sea mas guapo que yo. Creo que es algo que me haria perder el control</template>
+	</category>
+
+	
+	<category>
+	<pattern>* aspectos * jefe ^ </pattern>
+	<template><srai>que aspectos no te gustan de un jefe</srai></template>
+	</category>
+
+	<category>
+	<pattern>* aspectos * jefe</pattern>
+	<template><srai>que aspectos no te gustan de un jefe</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ no ^ jefe ^</pattern>
+	<template><srai>que aspectos no te gustan de un jefe</srai></template>
+	</category>
+
+
+	<!-- Regla cuarta -->
+	<category>
+	<pattern>cuales son tus 3 mayores virtudes</pattern>
+	<template>Mi mayor virtud es la sinceridad, luego mi paciencia... me cuesta mucho enfadarme... HAGAME OTRA PREGUNTA YA</template>
+	</category>
+
+	<category>
+	<pattern>* 3 virtudes *</pattern>
+	<template><srai>cuales son tus 3 mayores virtudes</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ tus ^ 3 virtudes ^</pattern>
+	<template><srai>cuales son tus 3 mayores virtudes</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ tres ^ virtudes ^ </pattern>
+	<template><srai>cuales son tus 3 mayores virtudes</srai></template>
+	</category>
+
+
+	<!-- Regla quinta -->
+	<category>
+	<pattern>te consideras preparado para desempeniar las funciones de este puesto</pattern>
+	<template>Por supuesto, yo no me agobio, usted se agobia... Suelo mantener la calma con los clientes. Solo tengo una queja y es por que un cliente queria comerse la pizza con cuchillo y tenedor... se cree usted lo que hay suelto por ahi</template>
+	</category>
+	
+	<category>
+	<pattern> * consideras preparado ^ funciones * puesto  </pattern>
+	<template><srai>te consideras preparado para desempeniar las funciones de este puesto</srai></template>
+	</category>
+
+	<category>
+	<pattern>* consideras preparado ^ funciones * puesto *</pattern>
+	<template><srai>te consideras preparado para desempeniar las funciones de este puesto</srai></template>
+	</category>
+
+	<category>
+	<pattern>*  preparado * </pattern>
+	<template><srai>te consideras preparado para desempeniar las funciones de este puesto</srai></template>
+	</category>
+
+	<category>
+	<pattern>* consideras ^ preparado ^ funciones *  </pattern>
+	<template><srai>te consideras preparado para desempeniar las funciones de este puesto</srai></template>
+	</category>
+
+	<!-- Regla sexta -->
+	<category>
+	<pattern>tienes experiencia en la realizacion de proyectos en equipos de trabajo</pattern>
+	<template>Si, aunque no salio muy bien, era una despedida de solteros... Acabo en divorcio</template>
+	</category>
+	
+	<category>
+	<pattern> tienes ^ experiencia ^  </pattern>
+	<template><srai>tienes experiencia en la realizacion de proyectos en equipos de trabajo</srai></template>
+	</category>
+
+	<category>
+	<pattern>* proyectos * trabajo ^ </pattern>
+	<template><srai>tienes experiencia en la realizacion de proyectos en equipos de trabajo</srai></template>
+	</category>
+
+	<category>
+	<pattern> * experiencia ^ trabajo </pattern>
+	<template><srai>tienes experiencia en la realizacion de proyectos en equipos de trabajo</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ experiencia ^ proyectos ^ equipo ^ </pattern>
+	<template><srai>tienes experiencia en la realizacion de proyectos en equipos de trabajo</srai></template>
+	</category>
+	<!-- Regla septima -->
+	<category>
+	<pattern>realizarias un trabajo que no fuera con tu especialidad</pattern>
+	<template>Sin ninguna duda. Se trata de ser el mejor en todo, lo aceptaria sin dudar. Esa era mi tercera virtud</template>
+	</category>
+	
+	<category>
+	<pattern>* trabajo * especialidad </pattern>
+	<template><srai>realizarias un trabajo que no fuera con tu especialidad</srai></template>
+	</category>
+
+	<category>
+	<pattern>realizarias * trabajo *</pattern>
+	<template><srai>realizarias un trabajo que no fuera con tu especialidad</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ realizarias ^ no ^</pattern>
+	<template><srai>realizarias un trabajo que no fuera con tu especialidad</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ realizarias ^ trabajo </pattern>
+	<template><srai>realizarias un trabajo que no fuera con tu especialidad</srai></template>
+	</category>
+	<!-- Regla octava -->
+	<category>
+	<pattern>te desplazarias de manera ocasional a otros lugares</pattern>
+	<template>Me gustaria vivir en las Bahamas...Nueva York...Japon...Pero mi sueldo es demasiado bajo para irme</template>
+	</category>
+	
+	<category>
+	<pattern> ^ desplazarias ^ lugares *  </pattern>
+	<template><srai>Te desplazarias de manera ocasional a otros lugares</srai></template>
+	</category>
+
+	<category>
+	<pattern> * desplazarias de manera * a ^ lugares</pattern>
+	<template><srai>Te desplazarias de manera ocasional a otros lugares</srai></template>
+	</category>
+
+	<category>
+	<pattern> ^ lugares ^</pattern>
+	<template><srai>Te desplazarias de manera ocasional a otros lugares</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ desplazarias ^ lugares ^ </pattern>
+	<template><srai>Te desplazarias de manera ocasional a otros lugares</srai></template>
+	</category>
+	<!-- Regla novena -->
+	<category>
+	<pattern>te consideras una persona creativa</pattern>
+	<template>tengo tres hijos pequenios... He sido frozen, la sirenita y wally la misma noche para tres cuentos distintos.</template>
+	</category>
+	
+	<category>
+	<pattern>* creativo  </pattern>
+	<template><srai>te consideras una persona creativa</srai></template>
+	</category>
+
+	<category>
+	<pattern> * consideras una persona ^ creativa</pattern>
+	<template><srai>te consideras una persona creativa</srai></template>
+	</category>
+
+	<category>
+	<pattern> ^ creativa ^</pattern>
+	<template><srai>te consideras una persona creativa</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ persona * creativa ^ </pattern>
+	<template><srai>te consideras una persona creativa</srai></template>
+	</category>
+	<!-- Regla decima -->
+	<category>
+	<pattern>que expectativas tienes de este trabajo</pattern>
+	<template>Me es indiferente, quiero ganar lo suficiente como para vivir a cuerpo de rey</template>
+	</category>
+	
+	<category>
+	<pattern>^ expectativas ^ trabajo  </pattern>
+	<template><srai>que expectativas tienes de este trabajo</srai></template>
+	</category>
+
+	<category>
+	<pattern>* expectativas ^</pattern>
+	<template><srai>que expectativas tienes de este trabajo</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ trabajo ^</pattern>
+	<template><srai>que expectativas tienes de este trabajo</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ expectativas ^ </pattern>
+	<template><srai>que expectativas tienes de este trabajo</srai></template>
+	</category>
+	<!-- Regla undecima -->
+	<category>
+	<pattern>que trabajos has tenido en esta tematica</pattern>
+	<template>Ninguno, lo mas proximo a trabajar ha sido ser entrenador de futbol, pero como dice mi madre...eso no me va a dar de comer</template>
+	</category>
+	
+	<category>
+	<pattern>* trabajos * tematica *
+  </pattern>
+	<template><srai>que trabajos has tenido en esta tematica</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ trabajos * tematica ^</pattern>
+	<template><srai>que trabajos has tenido en esta tematica</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ tematica ^</pattern>
+	<template><srai>que trabajos has tenido en esta tematica</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ trabajo ^ tematica ^ </pattern>
+	<template><srai>que trabajos has tenido en esta tematica</srai></template>
+	</category>
+	<!-- Regla decimosegunda -->
+	<category>
+	<pattern>normalmente te llevas el trabajo a casa</pattern>
+	<template>Intento dejarlo acabao mucho antes, pero  veces no hay otro remedio. Suelo acabarlo esa misma noche</template>
+	</category>
+	
+	<category>
+	<pattern>* te llevas el trabajo ^  </pattern>
+	<template><srai>normalmente te llevas el trabajo a casa</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ trabajo ^ casa </pattern>
+	<template><srai>normalmente te llevas el trabajo a casa</srai></template>
+	</category>
+
+	<category>
+	<pattern>* llevas * trabajo a casa ^</pattern>
+	<template><srai>normalmente te llevas el trabajo a casa</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ trabajo ^ casa ^</pattern>
+	<template><srai>normalmente te llevas el trabajo a casa</srai></template>
+	</category>
+	<!-- Regla decimotercera -->
+	<category>
+	<pattern>cuales son tus aspiraciones salariales</pattern>
+	<template>Espero verme recompensado si hago trabajo extra, si mis actitudes son las deseadas o si mi evolucion es favorable, pero no soy de pedir aumentos a lo loco</template>
+	</category>
+	
+	<category>
+	<pattern>* son tus aspiraciones salariales  </pattern>
+	<template><srai>ccuales son tus aspiraciones salariales</srai></template>
+	</category>
+
+	<category>
+	<pattern>* aspiraciones ^ salariales *</pattern>
+	<template><srai>cuales son tus aspiraciones salariales</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ aspiraciones ^ salariales ^</pattern>
+	<template><srai>cuales son tus aspiraciones salariales</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ salariales * </pattern>
+	<template><srai>cuales son tus aspiraciones salariales</srai></template>
+	</category>
+	<!-- Regla decimocuarta -->
+	<category>
+	<pattern>donde te ves dentro de cinco anios</pattern>
+	<template>Me veo trabajando aqui, me han ascendido a jefe, tambien te veo a ti... ya no estas, te despedi yo, nunca me caiste bien</template>
+	</category>
+	
+	<category>
+	<pattern>* estas dentro de 5 *  </pattern>
+	<template><srai>donde te ves dentro de cinco anios</srai></template>
+	</category>
+
+	<category>
+	<pattern>* estas dentro ^ cinco ^</pattern>
+	<template><srai>donde te ves dentro de cinco anios</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ cinco ^</pattern>
+	<template><srai>donde te ves dentro de cinco anios</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ 5 ^</pattern>
+	<template><srai>donde te ves dentro de cinco anios</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ ves ^ anios </pattern>
+	<template><srai>donde te ves dentro de cinco anios</srai></template>
+	</category>
+	<!-- Regla decimoquinta -->
+	<category>
+	<pattern>no tienes experiencia para el puesto a desempeñar</pattern>
+	<template>Puede ser que de peon de obra, medico o recepcionista no la tenga, pero de informatico tengo lo maximo posible, puesto que soy ingeniero informatico. Soy Programador</template>
+	</category>
+	
+	<category>
+	<pattern>no * experiencia ^ puesto   </pattern>
+	<template><srai>no tienes experiencia para el puesto a desempeñar</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ no ^ experiencia</pattern>
+	<template><srai>no tienes experiencia para el puesto a desempeñar</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ no ^ puesto ^</pattern>
+	<template><srai>no tienes experiencia para el puesto a desempeñar</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ experiencia ^ puesto ^ </pattern>
+	<template><srai>no tienes experiencia para el puesto a desempeñar</srai></template>
+	</category>
+	<!-- Regla decimosexta -->
+	<category>
+	<pattern>que sabes de la empresa y el puesto de trabajo</pattern>
+	<template>Nada, tambien venia a informarme</template>
+	</category>
+	
+	<category>
+	<pattern>^ sobre la empresa  </pattern>
+	<template><srai>que sabes de la empresa y el puesto de trabajo</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ empresa * puesto de trabajo</pattern>
+	<template><srai>que sabes de la empresa y el puesto de trabajo</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ empresa ^ puesto * trabajo</pattern>
+	<template><srai>que sabes de la empresa y el puesto de trabajo</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ empresa ^ puesto ^ trabajo ^</pattern>
+	<template><srai>que sabes de la empresa y el puesto de trabajo</srai></template>
+	</category>
+	<!-- Regla decimoseptima -->
+	<category>
+	<pattern>que haces cuando consideras que tu jefe no tiene la razon</pattern>
+	<template>Nada. Dios me dio paciencia y no fuerza</template>
+	</category>
+	
+	<category>
+	<pattern> ^ consideras ^ jefe ^ no ^  </pattern>
+	<template><srai>que haces cuando consideras que tu jefe no tiene la razon</srai></template>
+	</category>
+
+	<category>
+	<pattern>* haces si tu jefe no tiene razon ^</pattern>
+	<template><srai>que haces cuando consideras que tu jefe no tiene la razon</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ jefe ^ no ^ razon</pattern>
+	<template><srai>que haces cuando consideras que tu jefe no tiene la razon</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ haces ^ jefe ^ </pattern>
+	<template><srai>que haces cuando consideras que tu jefe no tiene la razon</srai></template>
+	</category>
+	<!-- Regla decimoctava -->
+	<category>
+	<pattern>por que deberiamos escogerte a ti</pattern>
+	<template>Mi curriculum lo dice todo, aparte no suelo quejarme mucho, me conformo con un sueldo digno y un espacio para trabajar. Tengo aptitudes de sobra y valores correctos</template>
+	</category>
+	
+	<category>
+	<pattern>por que ^ ti  </pattern>
+	<template><srai>por que deberiamos escogerte a ti</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ escogerte * ti</pattern>
+	<template><srai>por que deberiamos escogerte a ti</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ escogerte ^ ti ^</pattern>
+	<template><srai>por que deberiamos escogerte a ti</srai></template>
+	</category>
+
+	<category>
+	<pattern> ^ escogerte ^ </pattern>
+	<template><srai>por que deberiamos escogerte a ti</srai></template>
+	</category>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	<!-- Aniade un nuevo capitulo de una nueva temporada a una serie -->
+	<category>
+	<pattern>aniade la nueva temporada <set>number</set> a ^</pattern>
+	<template>
+		<think><set name="nomSerie"><star index="2"/></set></think>
+		<think><set name="temporada"><star index="1"/></set></think>
+		<think><set name="topic">tituli</set></think>
+		Dime el titulo del primer capitulo
+	</template>
+	</category>
+
+	
+	<topic name="tituli">
+
+	<!-- Pide el nombre del capitulo -->
+	<category>
+	<pattern> ^ </pattern>
+	<template>
+		<think><set name="titulo"><star/></set></think>
+		<think><set name="topic">duration</set></think>
+		Dime la duracion del primer capitulo
+	</template>
+	</category>
+
+	</topic>
+
+	<topic name="duration">
+
+	<!-- Pide la duracion del capitulo -->
+	<category>
+	<pattern>  <set>number</set></pattern>
+	<template>
+		<think><set name="duracion"><star/></set></think>
+		<think><set name="topic">unknown</set></think>
+			<think><addtomap>
+				<name><get name="nomSerie"/></name>
+				<key>temporada<get name="temporada"/></key>
+				<value><get name="titulo"/>@<get name="duracion"/>@</value>
+			</addtomap></think>
+		La nueva temporada ya esta disponible en la plataforma
+	</template>
+	</category>
+
+	</topic>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- Aniadir Capitulo -->
+	<category>
+	<pattern>aniadir un nuevo capitulo a la temporada <set>number</set> de *</pattern>
+	<template>
+		<think><set name="serie"><star index="2"/></set></think>
+		<think><set name="temporada"><star index="1"/></set></think>
+		<think><set name="topic">titcap</set></think>
+		Dime el titulo del capitulo</template>
+	</category>
+
+	
+	<topic name="titcap">
+	<!-- Pide titulo -->
+		<category>
+		<pattern> ^ </pattern>
+		<template>
+			<think><set name="titulo"><star index="1"/></set></think>
+			<think><set name="topic">durcap</set></think>
+			Dime la duracion del capitulo
+		</template>
+		</category>
+	</topic>
+	
+	<topic name="durcap">
+	<!-- Pide la duracion del capitulo -->
+		<category>
+		<pattern><set>number</set></pattern>
+		<template>
+			<think><set var="eltel"><map><name><get name="serie"/></name>temporada<get name="temporada"/></map></set></think>
+			<think><set name="duracion"><star/></set></think>
+			<think><set name="topic">unknown</set></think>
+				<think><modifymap>
+					<name><get name="serie"/></name>
+					<key>temporada<get name="temporada"/></key>
+					<value><get var="eltel"/>@<get name="titulo"/>@<get name="duracion"/></value>
+				</modifymap></think>
+			Este capitulo ya esta disponible en la serie
+		</template>
+		</category>
+	</topic>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Aniadir una nueva serie en una de las plataformas -->
+	<category>
+	<pattern>aniadir una nueva serie</pattern>
+	<template>De acuerdo pues debes crear un txt dentro de la carpeta map con el nombre EN MINUSCULAS de la serie reiniciame y comencaremos a aniadirla
+para ello dime "Ya puedo aniadir la serie"</template>
+	</category>
+	
+	<category>
+	<pattern>Ya puedo aniadir la serie</pattern>
+	<template>
+		<think><set name="topic">titulo</set></think>
+	Dime el nombre de la serie</template>
+	</category>
+	
+
+	<topic name="titulo">
+		<category>
+		<pattern>^</pattern>
+		<template>
+			<think><set name="titulo"><star/></set></think>
+			<think><set name="topic">plataforma</set></think>
+			Dime la plataforma en la que se encuentra
+		</template>
+		</category>
+	</topic>	
+
+
+	<topic name="plataforma">
+	<!-- Pide la plataforma de la serie -->
+	<category>
+	<pattern> ^ </pattern>
+	<template>
+		<think><set name="plataforma"><star/></set></think>
+		<think><set name="topic">genero</set></think>
+		Dime el genero de la serie
+	</template>
+	</category>
+	</topic>
+
+	<topic name="genero">
+	<!-- Pide el genero de la serie -->
+	<category>
+	<pattern> ^ </pattern>
+	<template>
+		<think><set name="genero"><star/></set></think>
+		<think><set name="genero"><srai>CODEJC <get name="genero"/></srai></set></think>
+		<think><set name="topic">idiomas</set></think>
+		Que idiomas tiene la serie
+	</template>
+	</category>
+	</topic>
+	
+	<topic name="idiomas">
+	<!-- Pide los idiomas de la serie -->
+	<category>
+	<pattern> ^ </pattern>
+	<template>
+		<think><set name="idiomas"><star/></set></think>
+		<think><set name="idiomas"><srai>CODEJC <get name="idiomas"/></srai></set></think>
+		<think><set name="topic">subtitulos</set></think>
+		Dime los subtitulos
+	</template>
+	</category>
+	</topic>
+
+	<topic name="subtitulos">
+	<!-- Pide los subtitulos de la serie -->
+	<category>
+	<pattern> ^ </pattern>
+	<template>
+		<think><set name="subtitulos"><star/></set></think>
+		<think><set name="subtitulos"><srai>CODEJC <get name="subtitulos"/></srai></set></think>
+		<think><set name="topic">descripcion</set></think>
+		Dime la descripcion de la serie
+	</template>
+	</category>
+	</topic>
+
+
+	<topic name="descripcion">
+	<!-- Pide la descripcion de la serie -->
+	<category>
+	<pattern> ^ </pattern>
+	<template>
+		<think><set name="descr1"><star/></set></think>
+		<think><set name="descr"><srai>CODE <get name="descr1"/></srai></set></think>
+		<think><set name="topic">paginaweb</set></think>
+		Dime la pagina web donde se encuentra
+	</template>
+	</category>
+	</topic>
+	
+	<topic name="paginaweb">
+	<!-- Pide la pag web de la serie -->
+	<category>
+	<pattern> ^ </pattern>
+	<template>
+		<think><set name="pagweb"><star/></set></think>
+		<think><set name="topic">admap</set></think>
+		Dime el titulo del primer capitulo y su duracion
+	</template>
+	</category>
+	</topic>
+
+
+	<topic name="admap">
+		<!-- Aniadir en un map -->
+		<category>
+		<pattern>  ^ y <set>number</set></pattern>
+		<template>
+			<think><set name="nomCap"><star index="1"/></set></think>
+			<think><set name="dura"><star index="2"/></set></think>
+				<think><addtomap>
+					<name><get name="titulo"/></name>
+					<key>Serie</key>
+					<value><get name="titulo"/></value>
+				</addtomap></think>
+			
+				<think><addtomap>
+					<name><get name="titulo"/></name>
+					<key>Plataforma</key>
+					<value><get name="plataforma"/></value>
+				</addtomap></think>
+				<think><addtomap>
+					<name><get name="titulo"/></name>
+					<key>Genero</key>
+					<value><get name="genero"/></value>
+				</addtomap></think>
+				<think><addtomap>
+					<name><get name="titulo"/></name>
+					<key>Idiomas</key>
+					<value><get name="idiomas"/></value>
+				</addtomap></think>
+				<think><addtomap>
+					<name><get name="titulo"/></name>
+					<key>Subtitulos</key>
+					<value><get name="subtitulos"/></value>
+				</addtomap></think>
+				<think><addtomap>
+					<name><get name="titulo"/></name>
+					<key>Descripcion</key>
+					<value><get name="descr"/></value>
+				</addtomap></think>
+				<think><addtomap>
+					<name><get name="titulo"/></name>
+					<key>Pagina_Web</key>
+					<value><get name="pagweb"/></value>
+				</addtomap></think>
+				<think><addtomap>
+					<name><get name="titulo"/></name>
+					<key>temporada1</key>
+					<value><get name="nomCap"/>@<get name="dura"/>@</value>
+				</addtomap></think>
+				<think><addtoset>
+					<name>seriesnetflix</name>
+					<key><get name="titulo"/></key>
+				</addtoset></think>
+			
+
+			Esta SERIE ya esta disponible en la plataforma
+		</template>
+		</category>
+	
+	</topic>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Nivel 2-->
+
+<!-- Preguntar por un idioma -->
+
+<category>
+	<pattern> ^ <set>seriesnetflix</set> esta en <set>idiomas</set></pattern>
+	<template>
+			<think><set var="lista"><map><name><star index="2"/></name>Idiomas</map></set></think>
+			<think><set var="lista"><srai>decode_fields <get var="lista"/></srai></set></think>
+			<think><set var="idiomas"><first><get var="lista"/></first></set></think>	
+			
+			<think><condition var="idiomas">
+				<li value="NIL"><set var="solucion">No esta en <star index="3"></star></set></li>
+				<li><value><star index="3"/></value>
+				<set var="solucion">Si, <star index="2"/> esta en <star index="3"/></set></li>
+				<li>
+					<set var="lista"><rest><get var="lista"/></rest></set>
+					<set var="idiomas"><first><get var="lista"/></first></set>
+					<loop/>
+				</li>	
+			</condition></think>
+		<get var="solucion"/>
+	</template>
+</category>
+
+
+<!-- Preguntar por un subtitulo -->
+<category>
+	<pattern> ^ <set>seriesnetflix</set> esta subtitulada en <set>idiomas</set></pattern>
+	<template>
+			<think><set var="lista"><map><name><star index="2"/></name>Subtitulos</map></set></think>
+			<think><set var="lista"><srai>decode_fields <get var="lista"/></srai></set></think>
+			<think><set var="idiomas"><first><get var="lista"/></first></set></think>	
+			
+			<think><condition var="idiomas">
+				<li value="NIL"><set var="solucion">No esta subtitulada en <star index="3"></star></set></li>
+				<li><value><star index="3"/></value>
+				<set var="solucion">Si, <star index="2"/> esta subtitulada en <star index="3"/></set></li>
+				<li>
+					<set var="lista"><rest><get var="lista"/></rest></set>
+					<set var="idiomas"><first><get var="lista"/></first></set>
+					<loop/>
+				</li>	
+			</condition></think>
+		<get var="solucion"/>
+	</template>
+</category>
+
+
+<!-- Idiomas de una serie -->
+<category>
+	<pattern>en que idiomas esta (la serie) <set>seriesnetflix</set></pattern>
+	<template>
+		<think>
+			<set var="tmp"><map><name><star/></name>idiomas</map></set>
+		</think>
+		<srai>decode_fields <get var="tmp"/></srai>
+	</template>
+</category>
+
+
+<!-- Subtitulos de una serie -->
+<category>
+	<pattern>en que subtitulos esta (la serie) <set>seriesnetflix</set></pattern>
+	<template>
+		<think>
+			<set var="tmp"><map><name><star/></name>subtitulos</map></set>
+		</think>
+		<srai>decode_fields <get var="tmp"/></srai>
+	</template>
+</category>
+
+
+
+<!-- Cuantos idiomas tiene una serie -->
+<category>
+	<pattern>cuantos idiomas tiene (la serie) <set>seriesnetflix</set></pattern>
+	<template>
+		<think><set var="lista"><map><name><star/></name>Idiomas</map></set></think>
+		<think><set var="lista2"><srai>decode_fields <get var="lista"/></srai></set></think>
+		<think><set var="cantidad"><srai>COUNT <get var="lista2"/></srai></set></think>
+		La serie tiene <get var="cantidad"/> idiomas
+	</template>
+</category>
+
+<!-- Cuantos subtitulos tiene una serie -->
+<category>
+	<pattern>cuantos subtitulos tiene (la serie) <set>seriesnetflix</set></pattern>
+	<template>
+		<think><set var="lista"><map><name><star/></name>Subtitulos</map></set></think>
+		<think><set var="lista2"><srai>decode_fields <get var="lista"/></srai></set></think>
+		<think><set var="cantidad"><srai>COUNT <get var="lista2"/></srai></set></think>
+		La serie tiene <get var="cantidad"/> subtitulos
+	</template>
+</category>
+
+
+
+<!-- Cuantos capitulos tiene una temporada -->
+<category>
+	<pattern>cuantos capitulos tiene la temporada * de (la serie) <set>seriesnetflix</set></pattern>
+	<template>
+		<think><set var="tem"><star index="1"/></set></think>
+		<think><set var="lista"><map><name><star index="2"/></name>temporada<get var="tem"/></map></set></think>
+		<think><set var="lista2"><srai>decode_fields <get var="lista"/></srai></set></think>
+		<think><set var="lista3"><srai>decode_numbers <get var="lista2"/></srai></set></think>
+		<think><set var="cantidad"><srai>COUNT <get var="lista3"/></srai></set></think>
+		La serie tiene <get var="cantidad"/> capitulos
+	</template>
+</category>
+
+
+<!-- Titulo de un capitulo en concreto -->
+<category>
+	<pattern>como se llama el capitulo * de la temporada * de (la serie) <set>seriesnetflix</set></pattern>
+	<template>
+		<think><set var="tem"><star index="2"/></set></think>
+		<think><set var="cap"><star index="1"/></set></think>
+		<think><set var="lista"><map><name><star index="3"/></name>temporada<get var="tem"/></map></set></think>
+		<think><set var="lista2"><srai>decode_fields <get var="lista"/></srai></set></think>
+		<think><set var="lista3"><srai>decode_numbers <get var="lista2"/></srai></set></think>
+		<think><set var="nombre"><srai>SELECTITEM <get var="cap"/> IN <get var="lista3"/></srai></set></think>
+		<think><set var="nombre"><srai>DECODE <get var="nombre"/></srai></set></think>
+		El capitulo <get var="cap"/> se llama <get var="nombre"/>
+	</template>
+</category>
+
+
+
+
+
+
+
+
+<!-- Cuanto dura un capitulo en concreto de una serie -->
+<category>
+	<pattern>cuanto dura el capitulo * de la temporada * de (la serie) <set>seriesnetflix</set></pattern>
+	<template>
+		<think><set var="tem"><star index="2"/></set></think>
+		<think><set var="cap"><star index="1"/></set></think>
+		<think><set var="lista"><map><name><star index="3"/></name>temporada<get var="tem"/></map></set></think>
+		<think><set var="lista2"><srai>decode_fields <get var="lista"/></srai></set></think>
+		<think><set var="lista3"><srai>decode_leters <get var="lista2"/></srai></set></think>
+		<think><set var="nombre"><srai>SELECTITEM <get var="cap"/> IN <get var="lista3"/></srai></set></think>
+		El capitulo <get var="cap"/> dura <get var="nombre"/>
+	</template>
+</category>
+
+
+
+
+<!-- Cuanto dura un capitulo en concreto de una serie -->
+<category>
+	<pattern>cuantas temporadas tiene (la serie) <set>seriesnetflix</set></pattern>
+	<template>
+		<think><set var="serie"><star/></set></think>
+		<think><set var="num_tem">0</set></think>
+		<think><set var="claves"><readkeys><star/></readkeys></set></think>
+		<think><set var="item">
+			<think><set var="tem">TEMPORADA</set></think><srai> ITERATE <get var="claves"/> </srai>
+		</set></think>
+		
+		<think><condition var="item">
+			<li value="$"></li>
+			<li> <get var="item"/>
+				<set var="item"><srai>NEXT</srai></set>
+				<set var="palabra"><srai>decode_numbers <get var="item"/></srai></set>
+
+				<condition var="palabra">
+					<li value="TEMPORADA">
+						<set var="num_tem"><map name ="successor"><get var="num_tem"/></map></set>
+					</li>
+				</condition>
+			<loop/>
+			</li>
+		</condition></think>
+	La serie <get var="serie"/> tiene <get var="num_tem"/> temporadas
+	</template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Cuantos capitulos tiene una serie en total -->
+<category>
+	<pattern>cuantos capitulos tiene (la serie) <set>seriesnetflix</set></pattern>
+	<template>
+		<think><set var="serie"><star/></set></think>
+		<think><set var="num_tem">0</set></think>
+		<think><set var="claves"><readkeys><star/></readkeys></set></think>
+		<think><set var="item">
+			<think><set var="tem">TEMPORADA</set></think><srai> ITERATE <get var="claves"/> </srai></set></think>
+		
+		<think><condition var="item">
+			<li value="$"></li>
+			<li> <get var="item"/>
+				<set var="item"><srai>NEXT</srai></set>
+				<set var="palabra"><srai>decode_numbers <get var="item"/></srai></set>
+
+				<condition var="palabra">
+					<li value="TEMPORADA">
+						<set var="num_tem"><map name ="successor"><get var="num_tem"/></map></set>
+						<set var="lista"><map><name><star/></name>temporada<get var="num_tem"/></map><srai>ADDITEM <star/> IN <get var="lista"/></srai></set>
+						<set var="lista2"><srai>decode_fields <get var="lista"/></srai></set>
+						<set var="lista3"><srai>decode_numbers <get var="lista2"/></srai></set>
+					</li>
+				</condition>
+			<loop/>
+			</li>
+		</condition></think>
+
+		<think><set var="lista3"><srai>REMAIN <get var="lista3"/></srai></set></think>
+		<think><set var="cantidad"><srai>COUNT <get var="lista3"/></srai></set></think>
+		La serie <get var="serie"/> tiene <get var="cantidad"/> capitulos en total
+	</template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Regla que concatena una lista de palabras mediante un "@" -->
+<category>
+	<pattern> codejc * </pattern>
+	<template> 
+	  <think>
+		<set var="tmp"><star/></set>
+		<set var="solucion"><first><get var="tmp"/></first></set>
+		<set var="tmp"><rest><get var="tmp"/></rest></set>
+		<condition var="tmp">
+			<li value="NIL">
+			</li>
+			<li>
+				<set var="solucion"><get var="solucion"/>@<first><get var="tmp"/></first></set>
+				<set var="tmp"><rest><get var="tmp"/></rest></set>
+				<loop/>
+			</li>
+		</condition>
+	  </think>
+	<get var="solucion"/>
+	</template>
+</category>
+
+
+<!-- Quitar los @ de una lista -->
+<category>
+	<pattern> decode_fields * </pattern>
+	<template>
+		<think>
+			<set var="palabra"></set>
+			<set var="solucion"></set>
+			<set var="tmp"><star/></set>
+			<set var="tmp"> <explode><get var="tmp"/></explode> </set>
+			<set var="caracter"><first><get var="tmp"/></first></set>
+			<set var="tmp"><rest><get var="tmp"/></rest></set>
+
+
+			
+			<condition var="caracter">
+				<li value="NIL">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+				</li>
+				<li value="@">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li>
+					<set var="palabra"><get var="palabra"/><get var="caracter"/></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>>
+					<loop/>
+				</li>	
+			</condition>
+		</think>
+		<get var="solucion"/>
+	</template>
+</category>
+
+
+
+
+
+
+
+
+
+
+<!-- Quitar los numeros de la duracion -->
+<category>
+	<pattern> decode_numbers * </pattern>
+	<template>
+		<think>
+			<set var="palabra"></set>
+			<set var="solucion"></set>
+			<set var="tmp"><star/></set>
+			<set var="tmp"> <explode><get var="tmp"/></explode> </set>
+			<set var="caracter"><first><get var="tmp"/></first></set>
+			<set var="tmp"><rest><get var="tmp"/></rest></set>
+
+
+			
+			<condition var="caracter">
+				<li value="NIL">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+				</li>
+				<li value="1">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="2">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="3">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="4">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="5">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="6">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="7">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>				
+				<li value="8">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="9">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="0">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+
+				<li>
+					<set var="palabra"><get var="palabra"/><get var="caracter"/></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>>
+					<loop/>
+				</li>	
+			</condition>
+		</think>
+		<get var="solucion"/>
+	</template>
+</category>
+
+
+
+<!-- Quitar los numeros de la duracion -->
+<category>
+	<pattern> decode_leters * </pattern>
+	<template>
+		<think>
+			<set var="palabra"></set>
+			<set var="solucion"></set>
+			<set var="tmp"><star/></set>
+			<set var="tmp"> <explode><get var="tmp"/></explode> </set>
+			<set var="caracter"><first><get var="tmp"/></first></set>
+			<set var="tmp"><rest><get var="tmp"/></rest></set>
+
+
+			
+			<condition var="caracter">
+				<li value="NIL">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+				</li>
+				<li value="a">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="_">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="b">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="c">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="d">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="e">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="f">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="g">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>				
+				<li value="h">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="i">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="j">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="k">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="l">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="m">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="n">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="o">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="p">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="q">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="r">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="s">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="t">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="u">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="v">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="w">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="x">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="y">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+				<li value="z">
+					<set var="solucion"><get var="solucion"/> <get var="palabra"/></set>
+					<set var="palabra"></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>
+
+
+				<li>
+					<set var="palabra"><get var="palabra"/><get var="caracter"/></set>
+					<set var="caracter"><first><get var="tmp"/></first></set>
+					<set var="tmp"><rest><get var="tmp"/></rest></set>
+					<loop/>
+				</li>	
+			</condition>
+		</think>
+		<get var="solucion"/>
+	</template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+</aiml>
